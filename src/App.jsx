@@ -185,55 +185,55 @@ function App() {
 
       <div id="gameBoard">
 
-        <div className="gameBox" id='topLeft' onClick={() => clickAttempt(0)} style={{ backgroundColor: boardColour[0] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" id='topLeft' onClick={() => clickAttempt(0)} style={{ backgroundColor: boardColour[0] === 3 ? '#27bcc0' : undefined }}>
           {boardData[0] === 0 && <></>}
           {boardData[0] === 1 && <Circle></Circle>}
           {boardData[0] === 2 && <X></X>}
 
         </div>
-        <div className="gameBox" onClick={() => clickAttempt(1)} style={{ backgroundColor: boardColour[1] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" onClick={() => clickAttempt(1)} style={{ backgroundColor: boardColour[1] === 3 ? '#27bcc0' : undefined }}>
           {boardData[1] === 0 && <></>}
           {boardData[1] === 1 && <Circle></Circle>}
           {boardData[1] === 2 && <X></X>}
    
         </div>
-        <div className="gameBox" id='topRight' onClick={() => clickAttempt(2)} style={{ backgroundColor: boardColour[2] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" id='topRight' onClick={() => clickAttempt(2)} style={{ backgroundColor: boardColour[2] === 3 ? '#27bcc0' : undefined }}>
           {boardData[2] === 0 && <></>}
           {boardData[2] === 1 && <Circle></Circle>}
           {boardData[2] === 2 && <X></X>}
        
         </div>
-        <div className="gameBox" onClick={() => clickAttempt(3)} style={{ backgroundColor: boardColour[3] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" onClick={() => clickAttempt(3)} style={{ backgroundColor: boardColour[3] === 3 ? '#27bcc0' : undefined }}>
           {boardData[3] === 0 && <></>}
           {boardData[3] === 1 && <Circle></Circle>}
           {boardData[3] === 2 && <X></X>}
         
         </div>
-        <div className="gameBox" onClick={() => clickAttempt(4)} style={{ backgroundColor: boardColour[4] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" onClick={() => clickAttempt(4)} style={{ backgroundColor: boardColour[4] === 3 ? '#27bcc0' : undefined }}>
           {boardData[4] === 0 && <></>}
           {boardData[4] === 1 && <Circle></Circle>}
           {boardData[4] === 2 && <X></X>}
         
         </div>
-        <div className="gameBox" onClick={() => clickAttempt(5)} style={{ backgroundColor: boardColour[5] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" onClick={() => clickAttempt(5)} style={{ backgroundColor: boardColour[5] === 3 ? '#27bcc0' : undefined }}>
           {boardData[5] === 0 && <></>}
           {boardData[5] === 1 && <Circle></Circle>}
           {boardData[5] === 2 && <X></X>}
        
         </div>
-        <div className="gameBox" id='bottomLeft' onClick={() => clickAttempt(6)} style={{ backgroundColor: boardColour[6] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" id='bottomLeft' onClick={() => clickAttempt(6)} style={{ backgroundColor: boardColour[6] === 3 ? '#27bcc0' : undefined }}>
           {boardData[6] === 0 && <></>}
           {boardData[6] === 1 && <Circle></Circle>}
           {boardData[6] === 2 && <X></X>}
        
         </div>
-        <div className="gameBox" onClick={() => clickAttempt(7)} style={{ backgroundColor: boardColour[7] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" onClick={() => clickAttempt(7)} style={{ backgroundColor: boardColour[7] === 3 ? '#27bcc0' : undefined }}>
           {boardData[7] === 0 && <></>}
           {boardData[7] === 1 && <Circle></Circle>}
           {boardData[7] === 2 && <X></X>}
 
         </div>
-        <div className="gameBox" id='bottomRight' onClick={() => clickAttempt(8)} style={{ backgroundColor: boardColour[8] === 3 ? '#27bcc0' : '#5edee2' }}>
+        <div className="gameBox" id='bottomRight' onClick={() => clickAttempt(8)} style={{ backgroundColor: boardColour[8] === 3 ? '#27bcc0' : undefined }}>
           {boardData[8] === 0 && <></>}
           {boardData[8] === 1 && <Circle></Circle>}
           {boardData[8] === 2 && <X></X>}
